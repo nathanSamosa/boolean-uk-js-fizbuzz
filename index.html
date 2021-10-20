@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dice</title>
+        <meta charset="UTF-8" />
+        <script defer src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form id="minmax">
+            <p>Minimum #:</p>
+            <input type="number" id="start">
+            <p>Maximum #:</p>
+            <input type="number" id="end">
+        </form>
+        <form id="divisors">
+            <p>Divisors:</p>
+            <p>Buzzword:</p>
+            <div>
+                <input type="number" name="divisor[]" id="div1" value=""/>
+                <input type="number" name="divisor[]" id="div2" value="" />
+                <input type="number" name="divisor[]" id="div3" value="" />
+                <input type="number" name="divisor[]" id="div4" value="" />
+                <input type="number" name="divisor[]" id="div5" value="" />
+                <input type="number" name="divisor[]" id="div6" value="" />
+                <input type="number" name="divisor[]" id="div7" value="" />
+                <input type="number" name="divisor[]" id="div8" value="" />
+            </div>
+            <div>
+                <input type="text" name="buzzword[]" id="buzz1" value="" />
+                <input type="text" name="buzzword[]" id="buzz2" value="" />
+                <input type="text" name="buzzword[]" id="buzz3" value="" />
+                <input type="text" name="buzzword[]" id="buzz4" value="" />
+                <input type="text" name="buzzword[]" id="buzz5" value="" />
+                <input type="text" name="buzzword[]" id="buzz6" value="" />
+                <input type="text" name="buzzword[]" id="buzz7" value="" />
+                <input type="text" name="buzzword[]" id="buzz8" value="" />
+            </div>
+        </form>
+        <button type="button" name="button" onclick="Divide()">Divide!</button>
+        <p id="par"></p>
+    </body>
+</html>

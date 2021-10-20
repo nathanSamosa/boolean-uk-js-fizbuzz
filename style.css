@@ -1,0 +1,11 @@
+#minmax {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    margin-bottom: 40px;
+}
+
+#divisors {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    margin-bottom: 40px;
+}
